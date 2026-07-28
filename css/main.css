@@ -1,0 +1,57 @@
+:root {
+
+    --bs-body-font-family: 'Segoe UI', sans-serif;
+
+    /* --bs-heading-font-family: 'Playfair Display', sans-serif; */
+
+    --bs-body-bg: #FBF1D7;
+    --bs-tertiary-bg-rgb: 251, 241, 215;
+
+    --bs-link-color-rgb: 0, 0, 0;
+    --bs-link-hover-color-rgb: rgb(136, 136, 136);
+
+    /* --bs-primary:#987dd3;
+   --bs-primary-rgb: 152, 125, 211; */
+
+    /* --bs-secondary: #7d82b8;
+   --bs-secondary-rgb: 125, 130, 184; */
+}
+
+/* burg */
+/* D51247 */
+.navbar-toggler {
+    border: none;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28213, 18, 70, 0.927%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+
+    width: 2em;
+    height: 2em;
+}
+
+.navbar{
+   --bs-navbar-color: rgb(0, 0, 0);
+   --bs-navbar-hover-color: rgb(0, 0, 0);
+   --bs-navbar-active-color: #000000b8;
+
+   font-weight: 500;   
+}
+
+/*  */
+
+.dropdown-menu {
+  --dropdown-link-hover-color: #e1d1a8;
+  --bs-dropdown-link-hover-bg: #F0DCA8;
+  --bs-dropdown-link-active-bg:#B4A06B;
+  --bs-dropdown-link-active-color:black;
+
+  --bs-dropdown-border-radius:0;
+  border: none;
+}
+
+.btn {
+    --bs-btn-font-family:"ADLaM Display", system-ui;
+    --bs-btn-color: #FFEDBF;
+}
+
+/* footer address */
