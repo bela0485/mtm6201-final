@@ -38,7 +38,7 @@
                                 Adopt
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Adopt a Cat</a></li>
+                                <li><a class="dropdown-item" href="./adopt_cat.html">Adopt a Cat</a></li>
                                 <li><a class="dropdown-item" href="#">Adopt a Dog</a></li>
                                 <li><a class="dropdown-item" href="#">Adopt Another Animal</a></li>
                                 <li><a class="dropdown-item" href="#">Adoption Process</a></li>
@@ -82,7 +82,7 @@
             </div>
         </nav>
     </header>
-    <main>
+    <main id="main">
         <section id="hero" class="position-relative">
             <img id="hero-image" src="./images/test-image.jpg" alt="">
             <div id="hero-content" class="container position-absolute top-50 start-50 translate-middle rounded-5 text-center
@@ -95,46 +95,212 @@
             </div>
         </section>
 
-        <section class="bg-secondary">
+        <section class="bg-secondary py-3">
             <div class="container text-center">
                 <h2 class="pt-4 pb-3">Our Stories</h2>
 
                 <div class="row featured-pet">
-                    <img class="col-md-6 rounded-5" src="./images/misty.png" alt="Misty the cat, she is a brown tabby with one green eye and one yellow-ish-green eye">
+                    <img 
+                        class="col-md-6 rounded-5"
+                        srcset="./images/our_stories_1_sm.webp 400w,
+                            ./images/our_stories_1_md.webp 768w,
+                            ./images/our_stories_1_lg.webp 992w,"
+                        src="./images/our_stories_1_lg.webp"
+                        sizes="100vw"
+                        alt="Misty the cat, she is a brown tabby with one green eye and one yellow-ish-green eye">
                     <div class="col-md-6 d-flex flex-column justify-content-center align-items-center">
                         <h3>Misty</h3>
-                        <p class="font-large lh-large">“When I met Misty she was skittish and scared of people. Now, when i have guests over Misty will have her presence known and demand love and affection from everyone!”</p>
+                        <p class="font-large lh-large">“When I met Misty she was skittish and scared of people. Now,
+                            when i have guests over Misty will have her presence known and demand love and affection
+                            from everyone!”</p>
                         <button class=" btn btn-info">More Stories</button>
                     </div>
                 </div>
-            
+
                 <div class="row featured-pet py-5 d-flex">
-                    <img class="col-md-6 rounded-5" src="./images/misty.png"
-                        alt="Misty the cat, she is a brown tabby with one green eye and one yellow-ish-green eye">
+                    <img 
+                        class="col-md-6 rounded-5"
+                        srcset="./images/our_stories_2_sm.webp 400w,
+                            ./images/our_stories_2_md.webp 768w,
+                            ./images/our_stories_2_lg.webp 992w,"
+                        src="./images/our_stories_2_lg.webp"
+                        sizes="100vw"
+                        alt="Perogie the cat, she is a red-ish brown and she is looking up to the left">
 
                     <div class="order-md-first col-md-6 d-flex flex-column justify-content-center align-items-center">
                         <h3>Perogie</h3>
-                        <p  class="font-large lh-large">“When we met Perogie at Pawsitive Futures, it felt like fate. She’s such a gentle soul and perfectly complements our family. Thank you for making this adoption process so special!"</p>
+                        <p class="font-large lh-large">“When we met Perogie at Pawsitive Futures, it felt like fate.
+                            She’s such a gentle soul and perfectly complements our family. Thank you for making this
+                            adoption process so special!"</p>
                         <button class=" btn btn-info">More Stories</button>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section>
+        <section class="py-5">
             <div class="container">
-                <h2 class="pt-4 pb-3 text-center">The Pawsitive Difference</h2>
+                <h2 class="pb-3 text-center">The Pawsitive Difference</h2>
                 <div class="row  justify-content-center">
                     <div class="col-md-9">
-                        <p class="lh-large text-center text-md-start">What sets Pawsitive Futures apart is its commitment to putting the well-being of every animal first. The organization focuses on responsible adoption practices, proper veterinary care, enrichment, and matching each pet with a home that fits its unique needs. Rather than simply rehoming animals as quickly as possible, Pawsitive Futures works to ensure every adoption is thoughtful, lasting, and in the best interest of both the pet and the adopter.</p>
+                        <p class="lh-large text-center text-md-start">What sets Pawsitive Futures apart is its
+                            commitment to putting the well-being of every animal first. The organization focuses on
+                            responsible adoption practices, proper veterinary care, enrichment, and matching each pet
+                            with a home that fits its unique needs. Rather than simply rehoming animals as quickly as
+                            possible, Pawsitive Futures works to ensure every adoption is thoughtful, lasting, and in
+                            the best interest of both the pet and the adopter.</p>
                     </div>
                     <div class="col-md-3 col-8">
                         <ul class="paw-bullets">
-                            <li class="font-large">Educate adopters</li>
-                            <li class="font-large">Emphasize animal welfare</li>
-                            <li class="font-large">Responsible rescue practices.</li>
+                            <li class="font-large"><span> Educate adopters</span></li>
+                            <li class="font-large"><span> Emphasize animal welfare</span></li>
+                            <li class="font-large"><span> Responsible rescue practices.</span></li>
                         </ul>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-secondary py-5">
+            <div class="container">
+                <h2 class="pb-3 text-center">Our Partners</h2>
+                <div class="row g-4">
+
+                    <img class="col-6 col-md-4" src="./images/partner-1.png" alt="">
+                    <img class="col-6 col-md-4" src="./images/partner-1.png" alt="">
+                    <img class="col-6 col-md-4" src="./images/partner-1.png" alt="">
+                    <img class="col-6 col-md-4" src="./images/partner-1.png" alt="">
+                    <img class="col-6 col-md-4" src="./images/partner-1.png" alt="">
+                    <img class="col-6 col-md-4" src="./images/partner-1.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5" id="kpi">
+            <div class="container">
+                <h2 class="pb-3 text-center">Last Year We</h2>
+                <div class="row text-center">
+                    <div class="col-md-6">
+                        <img src="./images/dog-house.svg" alt="">
+                        <h3>Rehomed 213 Pets</h3>
+                        <p>Pawsitive Futures has made a lasting impact by helping countless pets find loving, permanent
+                            homes. Every successful adoption is a fresh start for an animal that may have been
+                            abandoned, neglected, or homeless</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="./images/shot.svg" alt="">
+                        <h3>Vaccinated 324 Pets</h3>
+                        <p>Pawsitive Futures plays an important role in protecting the health of animals by ensuring
+                            many of the pets in its care receive essential vaccinations. This commitment not only
+                            benefits the pets but also helps protect others.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-secondary py-5" id="more_cards">
+            <h2 class="pb-3 text-center">More</h2>
+            <div class="container">
+                <div class="row g-3">
+                    <a href="#" class="col-md-4">
+                        <div class="card p-0 rounded-5">
+                            <!-- since the image takes more of the screen on mobile, make the image larger on mobile -->
+                            <!-- tablet uses the same formatting as the large screen sizes but has a smaller screen so use the md image -->
+                            <img 
+                                class="card-img rounded-5 object-fit-cover"
+                                srcset="./images/more_card_1_lg.webp 400w,
+                                    ./images/more_card_1_md.webp 800w,
+                                    ./images/more_card_1_lg.webp 1200w,"
+                                src="./images/more_card_1_lg.webp"
+                                sizes="100vw"
+                                alt="brown tabby cat rolling around on the floor">
+                            <div class="card-img-overlay d-flex flex-column justify-content-end p-0">
+                                <h3 class="card-title ml-auto text-white m-0 p-4 ps-5 rounded-bottom-5">Adopt</h3>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    <a href="#" class="col-md-4">
+                        <div class="card p-0 rounded-5">
+                            <img 
+                                class="card-img rounded-5 object-fit-cover"
+                                srcset="./images/more_card_2_lg.webp 400w,
+                                    ./images/more_card_2_md.webp 800w,
+                                    ./images/more_card_2_lg.webp 1200w,"
+                                src="./images/more_card_2_lg.webp"
+                                sizes="100vw"
+                                alt="white piggy bank with dollar inserted in the hole">
+                            <div class="card-img-overlay d-flex flex-column justify-content-end p-0">
+                                <h3 class="card-title ml-auto text-white m-0 p-4 ps-5 rounded-bottom-5">Donate</h3>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    <a href="#" class="col-md-4">
+                        <div class="card p-0 rounded-5">
+                            <img 
+                                class="card-img rounded-5 object-fit-cover"
+                                srcset="./images/more_card_3_lg.webp 400w,
+                                    ./images/more_card_3_md.webp 800w,
+                                    ./images/more_card_3_lg.webp 1200w,"
+                                src="./images/more_card_3_lg.webp"
+                                sizes="100vw"
+                                alt="white piggy bank with dollar inserted in the hole">
+                            <div class="card-img-overlay d-flex flex-column justify-content-end p-0">
+                                <h3 class="card-title ml-auto text-white m-0 p-4 ps-5 rounded-bottom-5">Our Long Term Plan</h3>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    <a href="#" class="col-md-4">
+                        <div class="card p-0 rounded-5">
+                            <img 
+                                class="card-img rounded-5 object-fit-cover"
+                                srcset="./images/more_card_4_lg.webp 400w,
+                                    ./images/more_card_4_md.webp 800w,
+                                    ./images/more_card_4_lg.webp 1200w,"
+                                src="./images/more_card_4_lg.webp"
+                                sizes="100vw"
+                                alt="white piggy bank with dollar inserted in the hole">
+                            <div class="card-img-overlay d-flex flex-column justify-content-end p-0">
+                                <h3 class="card-title ml-auto text-white m-0 p-4 ps-5 rounded-bottom-5">Careers</h3>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    <a href="#" class="col-md-4">
+                        <div class="card p-0 rounded-5">
+                            <img 
+                                class="card-img rounded-5 object-fit-cover"
+                                srcset="./images/more_card_5_lg.webp 400w,
+                                    ./images/more_card_5_md.webp 800w,
+                                    ./images/more_card_5_lg.webp 1200w,"
+                                src="./images/more_card_5_lg.webp"
+                                sizes="100vw"
+                                alt="white piggy bank with dollar inserted in the hole">
+                            <div class="card-img-overlay d-flex flex-column justify-content-end p-0">
+                                <h3 class="card-title ml-auto text-white m-0 p-4 ps-5 rounded-bottom-5">Volunteer</h3>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    <a href="#" class="col-md-4">
+                        <div class="card p-0 rounded-5">
+                            <img 
+                                class="card-img rounded-5 object-fit-cover"
+                                srcset="./images/more_card_6_lg.webp 400w,
+                                    ./images/more_card_6_md.webp 800w,
+                                    ./images/more_card_6_lg.webp 1200w,"
+                                src="./images/more_card_6_lg.webp"
+                                sizes="100vw"
+                                alt="white piggy bank with dollar inserted in the hole">
+                            <div class="card-img-overlay d-flex flex-column justify-content-end p-0">
+                                <h3 class="card-title ml-auto text-white m-0 p-4 ps-5 rounded-bottom-5">Our Philosophy</h3>
+                            </div>
+                        </div>
+                    </a>
+                    
+
                 </div>
             </div>
         </section>
@@ -152,9 +318,9 @@
                     <address class="mb-0">
                         <p><a href="mailto:Shelter@fakeemail.com">Shelter@fakeemail.com</a></p>
                         <p><a href="tel:+1800555555">1-800-555-555</a></p>
-                        
+
                         <p><a href="https://maps.app.goo.gl/BdXPBVLFB6ShGfZq6" target="_blank">1234 Doggy Street <br>
-                        Ottawa ON A1A 1A1</a></p>
+                                Ottawa ON A1A 1A1</a></p>
                     </address>
                 </div>
             </div>

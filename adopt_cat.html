@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Pawsitive Futures</title>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Agbalumo&display=swap" rel="stylesheet">
+
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <!-- my custom css -->
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <header>
+        <a href="#main" class="skip">Skip to main content</a>
+        <nav class="navbar navbar-expand-md bg-body-tertiary">
+            <div class="container">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="./images/logo-pawsitive-futures.svg" alt="Bootstrap" width="206" height="auto">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto column-gap-lg-5 md-align-items-center">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Adopt
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Adopt a Cat</a></li>
+                                <li><a class="dropdown-item" href="#">Adopt a Dog</a></li>
+                                <li><a class="dropdown-item" href="#">Adopt Another Animal</a></li>
+                                <li><a class="dropdown-item" href="#">Adoption Process</a></li>
+                                <li><a class="dropdown-item" href="#">Owner Resources</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Get Involved
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Paid Roles</a></li>
+                                <li><a class="dropdown-item" href="#">Volunteer Roles</a></li>
+                                <li><a class="dropdown-item" href="#">Application Process</a></li>
+                                <li><a class="dropdown-item" href="#">Orientation Process</a></li>
+                                <li><a class="dropdown-item" href="#">Educational Resources</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                About Us
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Our Philosophy</a></li>
+                                <li><a class="dropdown-item" href="#">The Pawisitve Difference</a></li>
+                                <li><a class="dropdown-item" href="#">Success Stories</a></li>
+                                <li><a class="dropdown-item" href="#">Our Long Term Plan</a></li>
+                                <li><a class="dropdown-item" href="#">Financial Breakdowns</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-danger">Donate</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main id="main">
+        <section id="hero" class="position-relative">
+            <img id="hero-image" src="./images/test-image.jpg" alt="">
+            <div id="hero-content" class="container position-absolute top-50 start-50 translate-middle rounded-5 text-center
+                    p-md-3 p-xl-5">
+                <div class="d-flex align-items-center flex-column ">
+                    <p class="text-white display-1 col-lg-8">Prepare for your new family member</p>
+                    <p class="text-white display-6">Follow our preparation guide to make sure you and your home are
+                        ready</p>
+                </div>
+                <button class="btn btn-danger">Learn More</button>
+            </div>
+        </section>
+
+        <section class="bg-secondary py-3">
+            <div class="container text-center">
+                <h2 class="pt-4 pb-3">Featured Pets</h2>
+
+                <div class="row featured-pet">
+                    <img class="col-md-6 rounded-5" srcset="./images/featured_cat_1_sm.webp 400w,
+                            ./images/featured_cat_1_md.webp 768w,
+                            ./images/featured_cat_1_lg.webp 992w," src="./images/featured_cat_1_lg.webp" sizes="100vw"
+                        alt="An orange tabby laying on the floor with its eyes closed">
+                    <div class="col-md-6 d-flex flex-column justify-content-center align-items-center">
+                        <h3>Ginger</h3>
+                        <p class="font-large lh-large">This giant ball of joy has been at the shelter for almost a year.
+                            She is very independent and does not require much attention. It has been hard to find him a
+                            new home due to his senior status.</p>
+                        <button class=" btn btn-info">More Details</button>
+                    </div>
+                </div>
+
+                <div class="row featured-pet py-5 d-flex">
+                    <img class="col-md-6 rounded-5" srcset="./images/featured_cat_2_sm.webp 400w,
+                            ./images/featured_cat_2_md.webp 768w,
+                            ./images/featured_cat_2_lg.webp 992w," src="./images/featured_cat_2_lg.webp" sizes="100vw"
+                        alt="A brown tabby rolling around on the carpet">
+
+                    <div class="order-md-first col-md-6 d-flex flex-column justify-content-center align-items-center">
+                        <h3>Nina</h3>
+                        <p class="font-large lh-large">Nina is a new arrival at the shelter, she is very playful to the
+                            point where its difficult to take a steady picture of her. She requires a lot of playtime
+                            and is great with children.</p>
+                        <button class=" btn btn-info">More Details</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5">
+            <div class="container">
+                <h2 class="pb-3 text-center">All Cats</h2>
+                <div class="row  justify-content-center">
+                    <!-- filters -->
+                    <p class="col-12">Filter</p>
+                    <div class="row g-3 justify-content-between mx-0">
+                        <div class="col-12 col-md-auto order-md-last">
+                            <p class="d-inline">Sort By:</p>
+                            <button class="btn btn-info dropdown-toggle w-md-auto d-inline col-12 col-md-auto"
+                                type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Age (min - max)
+                            </button>
+                        </div>
+
+                        <div class="col-6 col-md-auto">
+                            <button class="btn btn-info dropdown-toggle col-12 col-md-auto" type="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Breed
+                            </button>
+                        </div>
+
+                        <div class="col-6 col-md-auto">
+                            <button class="btn btn-info dropdown-toggle col-12 col-md-auto" type="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Gender
+                            </button>
+                        </div>
+
+                        <div class="col-6 col-md-auto">
+                            <button class="btn btn-info dropdown-toggle col-12 col-md-auto" type="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Temperament
+                            </button>
+                        </div>
+
+                        <div class="col-6 col-md-auto">
+                            <button class="btn btn-info dropdown-toggle col-12 col-md-auto" type="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Special Needs
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- cat list -->
+                <div class="row pt-3 gap-3">
+                    <div class="card rounded-5 border border-2 border-info bg-secondary col-12 col-md-4">
+                        <img src="./working-illustrator-files/cat_1.jpg" class="card-img-top rounded-5 border border-2 border-info mt-2 object-fit-cover" alt="...">
+                        <div class="card-body">
+                            <p class="card-title">Oliver</p>
+                            <p class="card-text">Breed: Tabby</p>
+                            <p class="card-text">Age: 1 year</p>
+                            <p class="card-text">Temperament: Playful, Mischievous</p>
+                            <p class="card-text">Special needs: Needs interactive playtime daily</p>
+                            <a href="#" class="btn btn-danger">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="card rounded-5 border border-2 border-info bg-secondary col-12 col-md-4">
+                        <img src="./working-illustrator-files/cat_1.jpg" class="card-img-top rounded-5 border border-2 border-info mt-2 object-fit-cover" alt="...">
+                        <div class="card-body">
+                            <p class="card-title">Oliver</p>
+                            <p class="card-text">Breed: Tabby</p>
+                            <p class="card-text">Age: 1 year</p>
+                            <p class="card-text">Temperament: Playful, Mischievous</p>
+                            <p class="card-text">Special needs: Needs interactive playtime daily</p>
+                            <a href="#" class="btn btn-danger">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+
+        <section class="bg-secondary py-5" id="more_cards">
+            <h2 class="pb-3 text-center">More</h2>
+            <div class="container">
+                <div class="row g-3">
+                    <a href="#" class="col-md-4">
+                        <div class="card p-0 rounded-5">
+                            <!-- since the image takes more of the screen on mobile, make the image larger on mobile -->
+                            <!-- tablet uses the same formatting as the large screen sizes but has a smaller screen so use the md image -->
+                            <img class="card-img rounded-5 object-fit-cover" srcset="./images/adopt_more_1_lg.webp 400w,
+                                    ./images/adopt_more_1_md.webp 800w,
+                                    ./images/adopt_more_1_lg.webp 1200w," src="./images/adopt_more_1_lg.webp"
+                                sizes="100vw"
+                                alt="A couple sitting on a couch with a white poodle sitting on the floor next to them">
+                            <div class="card-img-overlay d-flex flex-column justify-content-end p-0">
+                                <h3 class="card-title ml-auto text-white m-0 p-4 ps-5 rounded-bottom-5">Adoption Process
+                                </h3>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="col-md-4">
+                        <div class="card p-0 rounded-5">
+                            <img class="card-img rounded-5 object-fit-cover" srcset="./images/adopt_more_2_lg.webp 400w,
+                                    ./images/adopt_more_2_md.webp 800w,
+                                    ./images/adopt_more_2_lg.webp 1200w," src="./images/adopt_more_2_lg.webp"
+                                sizes="100vw" alt="Woman hugging a pitbull">
+                            <div class="card-img-overlay d-flex flex-column justify-content-end p-0">
+                                <h3 class="card-title ml-auto text-white m-0 p-4 ps-5 rounded-bottom-5">Owner Resources
+                                </h3>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="col-md-4">
+                        <div class="card p-0 rounded-5">
+                            <img class="card-img rounded-5 object-fit-cover" srcset="./images/more_card_2_lg.webp 400w,
+                                    ./images/more_card_2_md.webp 800w,
+                                    ./images/more_card_2_lg.webp 1200w," src="./images/more_card_2_lg.webp"
+                                sizes="100vw" alt="white piggy bank with dollar inserted in the hole">
+                            <div class="card-img-overlay d-flex flex-column justify-content-end p-0">
+                                <h3 class="card-title ml-auto text-white m-0 p-4 ps-5 rounded-bottom-5">Donate</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row align-items-center py-5">
+                <div class="col-md-3 text-center mb-md-0 mb-3">
+                    <a href="#">
+                        <img src="./images/logo-pawsitive-futures.svg" alt="Bootstrap" width="206" height="auto">
+                    </a>
+                </div>
+                <div class="ms-auto col-md-3 text-center">
+                    <address class="mb-0">
+                        <p><a href="mailto:Shelter@fakeemail.com">Shelter@fakeemail.com</a></p>
+                        <p><a href="tel:+1800555555">1-800-555-555</a></p>
+
+                        <p><a href="https://maps.app.goo.gl/BdXPBVLFB6ShGfZq6" target="_blank">1234 Doggy Street <br>
+                                Ottawa ON A1A 1A1</a></p>
+                    </address>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
