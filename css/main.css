@@ -199,6 +199,20 @@ ul.paw-bullets li::before {
     background-color: rgba(0, 0, 0, 0.25);
 }
 
+/* cats */
+.card-title {
+    font-family: var(--header-font);
+}
+
+#cat-list p:first-of-type, #cat-list label {
+    font-family: var(--header-font);
+}
+
+#cat-list p:first-of-type {
+    font-size: 25px;
+}
+
+
 /* tablet style */
 @media (min-width: 768px) {
     #hero-image {

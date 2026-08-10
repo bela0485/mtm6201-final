@@ -66,7 +66,7 @@
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#">Our Philosophy</a></li>
                                 <li><a class="dropdown-item" href="#">The Pawisitve Difference</a></li>
-                                <li><a class="dropdown-item" href="#">Success Stories</a></li>
+                                <li><a class="dropdown-item" href="./stories.html">Success Stories</a></li>
                                 <li><a class="dropdown-item" href="#">Our Long Term Plan</a></li>
                                 <li><a class="dropdown-item" href="#">Financial Breakdowns</a></li>
                             </ul>
@@ -131,16 +131,16 @@
             </div>
         </section>
 
-        <section class="py-5">
+        <section class="py-5" id="cat-list">
             <div class="container">
                 <h2 class="pb-3 text-center">All Cats</h2>
                 <div class="row  justify-content-center">
                     <!-- filters -->
-                    <p class="col-12">Filter</p>
-                    <div class="row g-3 justify-content-between mx-0">
+                    <p class="col-12 m-0">Filter</p>
+                    <div class="row g-3 justify-content-between mx-0 mt-0">
                         <div class="col-12 col-md-auto order-md-last">
-                            <p class="d-inline">Sort By:</p>
-                            <button class="btn btn-info dropdown-toggle w-md-auto d-inline col-12 col-md-auto"
+                            <label class="d-inline" for="sort-by">Sort By:</label>
+                            <button id="sort-by" class="btn btn-info dropdown-toggle w-md-auto d-inline col-12 col-md-auto"
                                 type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Age (min - max)
                             </button>
@@ -182,10 +182,10 @@
                         <img src="./working-illustrator-files/cat_1.jpg" class="card-img-top rounded-5 border border-2 border-info mt-2 object-fit-cover" alt="...">
                         <div class="card-body">
                             <p class="card-title">Oliver</p>
-                            <p class="card-text">Breed: Tabby</p>
-                            <p class="card-text">Age: 1 year</p>
-                            <p class="card-text">Temperament: Playful, Mischievous</p>
-                            <p class="card-text">Special needs: Needs interactive playtime daily</p>
+                            <p class="card-text mt-1 mb-0">Breed: Tabby</p>
+                            <p class="card-text mt-1 mb-0">Age: 1 year</p>
+                            <p class="card-text mt-1 mb-0">Temperament: Playful, Mischievous</p>
+                            <p class="card-text mt-1">Special needs: Needs interactive playtime daily</p>
                             <a href="#" class="btn btn-danger">Learn More</a>
                         </div>
                     </div>
