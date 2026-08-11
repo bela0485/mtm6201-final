@@ -8,7 +8,7 @@
     --bs-body-bg: #FBF1D7;
     --bs-tertiary-bg-rgb: 251, 241, 215;
 
-    --bs-secondary-color:#F0DCA8;
+    --bs-secondary-color: #F0DCA8;
     --bs-secondary-rgb: 240, 220, 168;
 
     --bs-link-color-rgb: 0, 0, 0;
@@ -17,7 +17,7 @@
     --hero-font: "Agbalumo", system-ui;
     --header-font: "ADLaM Display", system-ui;
 
-    --bs-body-font-size:18px;
+    --bs-body-font-size: 18px;
 
     --bs-info-rgb: 61, 127, 180;
 
@@ -40,7 +40,8 @@
     font-family: var(--header-font);
 }
 
-h2, h3 {
+h2,
+h3 {
     font-family: var(--header-font);
     color: #D51247;
     line-height: 38px;
@@ -74,28 +75,29 @@ h2, h3 {
     height: 2em;
 }
 
-.navbar{
-   --bs-navbar-color: rgb(0, 0, 0);
-   --bs-navbar-hover-color: rgb(0, 0, 0);
-   --bs-navbar-active-color: #c00e3e;
-   font-weight: 500;   
+.navbar {
+    --bs-navbar-color: rgb(0, 0, 0);
+    --bs-navbar-hover-color: rgb(0, 0, 0);
+    --bs-navbar-active-color: #c00e3e;
+    font-weight: 500;
 }
 
-.nav-link:focus, .nav-link:hover {
+.nav-link:focus,
+.nav-link:hover {
     color: #D51247;
 }
 
 .dropdown-menu {
-  --dropdown-link-hover-color: #e1d1a8;
-  --bs-dropdown-link-hover-bg: #F0DCA8;
-  --bs-dropdown-link-active-bg:#B4A06B;
-  --bs-dropdown-link-active-color:black;
-  --bs-dropdown-border-radius:0;
-  border: none;
+    --dropdown-link-hover-color: #e1d1a8;
+    --bs-dropdown-link-hover-bg: #F0DCA8;
+    --bs-dropdown-link-active-bg: #B4A06B;
+    --bs-dropdown-link-active-color: black;
+    --bs-dropdown-border-radius: 0;
+    border: none;
 }
 
 .btn {
-    --bs-btn-font-family:"ADLaM Display", system-ui;
+    --bs-btn-font-family: "ADLaM Display", system-ui;
     --bs-btn-color: #FFEDBF;
     --bs-btn-font-size: 20px;
 }
@@ -112,7 +114,7 @@ h2, h3 {
     --bs-btn-active-color: #FFEDBF;
     --bs-btn-active-bg: #103E63;
     --bs-btn-active-border-color: #103E63;
-    
+
 }
 
 .btn-danger {
@@ -123,7 +125,7 @@ h2, h3 {
     --bs-btn-hover-color: #FFEDBF;
     --bs-btn-hover-bg: #970A30;
     --bs-btn-hover-border-color: #970A30;
-    
+
     --bs-btn-active-color: #FFEDBF;
     --bs-btn-active-bg: #621329;
     --bs-btn-active-border-color: #621329;
@@ -131,19 +133,19 @@ h2, h3 {
 
 /* skip link */
 .skip {
-  position: absolute;
-  left: -10000px;
-  top: auto;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  display: block;
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    display: block;
 }
 
 .skip:focus {
-  position: static;
-  width: auto;
-  height: auto;
+    position: static;
+    width: auto;
+    height: auto;
 }
 
 /* hero section */
@@ -168,10 +170,10 @@ ul.paw-bullets {
 }
 
 ul.paw-bullets li {
-  display: flex;
-  align-items: center;
-  gap: 0.75em;
-  margin-bottom: 1em;
+    display: flex;
+    align-items: center;
+    gap: 0.75em;
+    margin-bottom: 1em;
 }
 
 ul.paw-bullets li::before {
@@ -191,17 +193,22 @@ ul.paw-bullets li::before {
 }
 
 /* more cards */
-#more_cards a:hover h3, #more_cards a:focus h3 {
+#more_cards a:hover h3,
+#more_cards a:focus h3 {
     background-color: rgba(0, 0, 0, 0.50);
 }
+
 #more_cards a h3 {
     transition: background-color 0.2s ease-in-out;
     background-color: rgba(0, 0, 0, 0.25);
 }
+
 #more_cards a:hover {
-    
-  animation: pulse; /* referring directly to the animation's @keyframe declaration */
-  animation-duration: 0.5s; /* don't forget to set a duration! */
+
+    animation: pulse;
+    /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 0.5s;
+    /* don't forget to set a duration! */
 }
 
 /* cats */
@@ -209,7 +216,8 @@ ul.paw-bullets li::before {
     font-family: var(--header-font);
 }
 
-#cat-list p:first-of-type, #cat-list label {
+#cat-list p:first-of-type,
+#cat-list label {
     font-family: var(--header-font);
 }
 
