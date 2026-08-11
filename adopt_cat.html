@@ -19,6 +19,7 @@
 
     <!-- animations -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -104,11 +105,14 @@
                 <h2 class="pt-4 pb-3">Featured Pets</h2>
 
                 <div class="row featured-pet">
-                    <img class="col-md-6 rounded-5" srcset="./images/featured_cat_1_sm.webp 400w,
+                    <img 
+                        data-aos="fade-right"
+                        class="col-md-6 rounded-5" srcset="./images/featured_cat_1_sm.webp 400w,
                             ./images/featured_cat_1_md.webp 768w,
                             ./images/featured_cat_1_lg.webp 992w," src="./images/featured_cat_1_lg.webp" sizes="100vw"
                         alt="An orange tabby laying on the floor with its eyes closed">
-                    <div class="col-md-6 d-flex flex-column justify-content-center align-items-center">
+                    <div class="col-md-6 d-flex flex-column justify-content-center align-items-center"
+                        data-aos="fade-left">
                         <h3>Ginger</h3>
                         <p class="font-large lh-large">This giant ball of joy has been at the shelter for almost a year.
                             She is very independent and does not require much attention. It has been hard to find him a
@@ -118,12 +122,15 @@
                 </div>
 
                 <div class="row featured-pet py-5 d-flex">
-                    <img class="col-md-6 rounded-5" srcset="./images/featured_cat_2_sm.webp 400w,
+                    <img 
+                        data-aos="fade-left"
+                        class="col-md-6 rounded-5" srcset="./images/featured_cat_2_sm.webp 400w,
                             ./images/featured_cat_2_md.webp 768w,
                             ./images/featured_cat_2_lg.webp 992w," src="./images/featured_cat_2_lg.webp" sizes="100vw"
                         alt="A brown tabby rolling around on the carpet">
 
-                    <div class="order-md-first col-md-6 d-flex flex-column justify-content-center align-items-center">
+                    <div class="order-md-first col-md-6 d-flex flex-column justify-content-center align-items-center"
+                        data-aos="fade-right">
                         <h3>Nina</h3>
                         <p class="font-large lh-large">Nina is a new arrival at the shelter, she is very playful to the
                             point where its difficult to take a steady picture of her. She requires a lot of playtime
@@ -422,6 +429,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
+
+    <!-- animate js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

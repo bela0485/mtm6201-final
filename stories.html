@@ -19,6 +19,7 @@
 
     <!-- animations -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -104,6 +105,7 @@
 
                 <div class="row featured-pet">
                     <img 
+                        data-aos="fade-right"
                         class="col-md-4 rounded-5"
                         srcset="./images/our_stories_1_sm.webp 400w,
                             ./images/our_stories_1_md.webp 768w,
@@ -111,7 +113,8 @@
                         src="./images/our_stories_1_lg.webp"
                         sizes="100vw"
                         alt="Misty the cat, she is a brown tabby with one green eye and one yellow-ish-green eye">
-                    <div class="col-md-8 d-flex flex-column justify-content-center align-items-md-start">
+                    <div class="col-md-8 d-flex flex-column justify-content-center align-items-md-start"
+                        data-aos="fade-left">
                         <h3>Nimur, Adopted by Emily T.</h3>
                         <p class="font-large lh-large text-md-start">"Adopting Nimur was the best decision my family ever made! She's brought so much joy and love into our home. From day one, she fit right in. Thank you, Pawsitive Futures!"</p>
                     </div>
@@ -119,6 +122,7 @@
 
                 <div class="row featured-pet py-5 d-flex">
                     <img 
+                        data-aos="fade-left"
                         class="col-md-4 rounded-5"
                         srcset="./images/our_stories_2_sm.webp 400w,
                             ./images/our_stories_2_md.webp 768w,
@@ -127,7 +131,8 @@
                         sizes="100vw"
                         alt="Perogie the cat, she is a red-ish brown and she is looking up to the left">
 
-                    <div class="order-md-first col-md-8 d-flex flex-column justify-content-center align-items-md-end">
+                    <div class="order-md-first col-md-8 d-flex flex-column justify-content-center align-items-md-end"
+                        data-aos="fade-right">
                         <h3>Finn, Fostered by James R.</h3>
                         <p class="font-large lh-large text-md-end">"Finn is truly a miracle dog! He has turned our lives around and taught our kids responsibility and love for animals. The team at the shelter was so helpful in matching us with him. Truly grateful!"</p>
                     </div>
@@ -269,6 +274,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
+
+    <!-- animate js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
