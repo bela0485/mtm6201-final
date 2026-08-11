@@ -88,7 +88,15 @@
     </header>
     <main id="main">
         <section id="hero" class="position-relative">
-            <img id="hero-image" src="./images/Impactful text2.png" alt="">
+            <!-- decorative hero image -->
+            <img 
+                id="hero-image"
+                srcset="./images/hero-cat-sm.webp 400w,
+                    ./images/hero-cat-md.webp 768w,
+                    ./images/hero-cat-lg.webp 1200w,"
+                src="./images/hero-cat-lg.webp"
+                sizes="100vw"
+                alt="">
             <div id="hero-content" class="container position-absolute top-50 start-50 translate-middle rounded-5 text-center
                     p-md-3 p-xl-5">
                 <div class="d-flex align-items-center flex-column ">
